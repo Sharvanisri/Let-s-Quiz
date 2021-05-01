@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> LET'S QUIZ</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+*{
+box-sizing: border-box;
+padding: 0px;
+margin: 2px;
+}
+body{
+background-image:url('quiz_background.jpg');
+font-family: 'Yusei Magic', sans-serif;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+}
+h1
+{
+ font-weight:600;
+ line-height:1.2;
+ margin:50px 300px;
+ text-align:center;
+ font-size:120px;
+}
+ .navbar{
+ background-color:#35335a;
+ color:#ffffff;
+ }
+ .flexbox-container{
+ display: flex;
+ }
+.flexbox-item{
+width: 345px;
+height: 300px;
+margin: 50px;
+border: 3px solid #35335a;
+background-color: #35335a;
+}
+ .quiz1{
+ min-height:100px;
+ background-image: url('math.jpg');
+ background-size:cover;
+ }
+ .quiz2{
+ background-image: url('friends.jpg');
+ background-size: cover;
+ min-height: 100px;
+ }
+ .quiz3{
+ min-height:100px;
+ background-image:url('logo.jpg');
+ background-size:cover;
+ }
+ 
+</style>
+</head>
+<body>
+<!--navbar-->
+<div class="navbar">
+<div class="container">
+<h1>LET'S QUIZ</H1>
+</div>
+</div>
+<div class="flexbox-container">
+<a href="math_quiz.html">
+<div class="flexbox-item quiz1"></div>
+</a>
+<a href="friends_quiz.html">
+<div class="flexbox-item quiz2"></div>
+</a>
+<a href="logo_quiz.html">
+<div class="flexbox-item quiz3"></div>
+</a>
+</div>
+</body>
+</html>
